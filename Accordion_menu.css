@@ -1,0 +1,60 @@
+body {
+    background-image: url(background.jpeg);
+    background-size: cover;
+    color: wheat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+.food {
+  color: #67a82d;
+  font-size: 3em;
+  position: sticky;
+}
+.container {
+  width: 600px;
+  margin-top: 4em;
+  margin-left: 4em;
+}
+.foodRecipeDetails {
+  display: none;
+}
+.foodHeader {
+  height: 1em;
+  color: #67a82d;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 2px;
+  margin: 3px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.error {
+  display: none;
+}
+.closeBtn {
+  display: none;
+  background: wheat;
+  color: #67a82d;
+  border: none;
+}
+.add {
+  height: 2em;
+  background: wheat;
+  border: none;
+  color: #67a82d;
+  border-radius: 9px;
+}
+input {
+  height: 2em;
+  background: rgb(94, 93, 93);
+
+}
+#name {
+  color: #b7df94;
+}
+#recipe {
+  color: wheat;
+}
